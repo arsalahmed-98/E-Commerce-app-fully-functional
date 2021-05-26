@@ -1,0 +1,97 @@
+name: store_backend
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # google sign in
+  firebase_auth: ^0.18.4+1
+  google_sign_in: ^4.5.6
+
+  cloud_firestore: ^0.14.4
+  cached_network_image: ^2.4.1
+  intl: ^0.16.1
+
+  # state management
+  provider: ^4.3.2+2
+  firebase_database: ^4.4.0
+
+  # icon of google
+  font_awesome_flutter: ^8.10.0
+
+  carousel_pro: ^1.0.0
+  transparent_image: ^1.0.0
+  uuid: ^2.2.0
+  flutter_spinkit: ^4.1.2
+  flutter_typeahead: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+       
+
+  flutter_launcher_icons: ^0.8.0
+
+flutter_icons:
+  image_path: "assets/download.jpg"
+  ios: true
+  android: true    
+
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+   - images/c1.jpg
+   - images/m1.jpeg
+   - images/m2.jpg
+   - images/w1.jpeg
+   - images/w4.jpeg
+   - images/cats/tshirt.png
+   - images/cats/dress.png
+   - images/cats/formal.png
+   - images/cats/informal.png
+   - images/cats/jeans.png
+   - images/cats/shoe.png
+   - images/products/blazer1.jpeg
+   - images/products/dress1.jpeg
+   - images/products/blazer2.jpeg
+   - images/products/dress2.jpeg
+   - images/products/hills1.jpeg
+   - images/products/hills2.jpeg
+   - images/products/pants1.jpg
+   - images/products/pants2.jpeg
+   - images/products/shoe1.jpg
+   - images/products/skt1.jpeg
+   - images/products/skt2.jpeg
+   - images/mh.jpg
+   - images/background.jpeg
+   - images/logo.png
+   - images/back2.jpeg
+   - images/back3.jpeg
+   - images/lg.png
+   - images/download.jpg
+   - images/cart.png
+   
